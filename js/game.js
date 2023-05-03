@@ -41,7 +41,7 @@ class Game{
             image (pista, 0, -height*5 , width, height*6);
           
             //chamar o método controlar carro
-            
+            this.controlCar()
             //desenhar as sprites
             drawSprites();
         }
@@ -60,6 +60,8 @@ class Game{
             gameState:state
         })
     }
+    controlCar(){
     
+    }
 
 }
